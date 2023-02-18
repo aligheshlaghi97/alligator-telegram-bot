@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-    twitter_bot:
+    alligator_bot:
         build: .
         volumes:
             - .:/app
-        restart: alwayss
+        restart: always
