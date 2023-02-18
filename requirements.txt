@@ -4,4 +4,4 @@ plotly~=5.11.0
 tapy~=1.9.1
 pandas~=1.5.2
 schedule~=1.1.0
-
+python-dotenv~=0.21.1

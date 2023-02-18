@@ -14,7 +14,6 @@ from indicators import AddIndicators
 from read_data import DataReadYfinance
 from signal_strategy import SmaCrossStrategy
 import plotly
-import fxcmpy
 import schedule
 import time
 
