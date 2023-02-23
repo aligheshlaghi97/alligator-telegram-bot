@@ -37,7 +37,7 @@ def task(reading_data):
     df_1m = ind_add.df
     df_1m = df_1m.iloc[50:]
     df_1m = df_1m.reset_index(drop=True)
-    
+
     strategy = SmaCrossStrategy()
     status = strategy.strategy_confirm(df)
     if status[0]:

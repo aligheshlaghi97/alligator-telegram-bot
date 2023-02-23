@@ -8,7 +8,7 @@ class DataReadYfinance:
         
     def get_data(self, currency="EURUSD", period="5m", length=150):
         ticker = yf.Ticker(f"{currency}=X")
-        data = ticker.history(interval=period, period="1d")
+        data = ticker.history(interval=period, period="2d")
         data = data.tail(length)
         data['date'] = data.index
         data = data.reset_index(drop=True)
@@ -24,4 +24,3 @@ class DataReadYfinance:
         self.data['time_str'] = new_dates
 #         self.data = self.data.rename({'bidopen': 'Open', 'bidhigh': 'High', 'bidlow': 'Low', 'bidclose': 'Close'}, axis=1)
         self.data = self.data[['Open', 'High', 'Low', 'Close', 'time_str']]
-        
