@@ -6,7 +6,7 @@ class DataReadYfinance:
         self.data = None
         
         
-    def get_data(self, currency="EURUSD", period="5m", length=150):
+    def get_data(self, currency="EURUSD", period="5m", duration="2d", length=150):
         ticker = yf.Ticker(f"{currency}=X")
         data = ticker.history(interval=period, period="2d")
         data = data.tail(length)

@@ -6,22 +6,22 @@ import plotly
 
 
 class visualization:
-    def __init__(self, ohlc_ocs):
+    def __init__(self, ohlc_ocs, tf):
         self.fig = plotly.tools.make_subplots(rows=4, cols=1, specs=[[{'rowspan':3}], [None], [None],[{}]], vertical_spacing = 0.01)
         self.data = ohlc_ocs
-        self.plot_ohlc()
+        self.plot_ohlc(tf)
         self.plot_alligator()
         self.plot_fractals()
         self.plot_ao_indicator()
         self.plot_aims_box()
         self.fig_style()
         
-    def plot_ohlc(self):        
+    def plot_ohlc(self, tf):        
         self.fig.add_trace(go.Candlestick(x=self.data['time_str'],
                             open=self.data['Open'],
                             high=self.data['High'],
                             low=self.data['Low'],
-                            name='Timeframe 15m',
+                            name=f'Timeframe {tf}m',
                             close=self.data['Close'])
                             )
     
