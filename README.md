@@ -42,7 +42,16 @@ If you have an idea for a new feature or improvement to Alligator-Cross Telegram
 
 If you would like to contribute code to Alligator-Cross Telegram Notifier, please submit a pull request on the project's GitHub page. When submitting a pull request, please:
 
-* Create a new branch for
+* Create a new branch for your changes
+* Follow the existing code style and conventions
+* Write clear commit messages and include any necessary documentation or tests
+
+### Contact
+If you have any questions or concerns about contributing to Alligator-Cross Telegram Notifier, please feel free to contact me at Aliigheshlaghi97@gmail.com.
+
+
+
+
 
 
 
