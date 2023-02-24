@@ -50,13 +50,9 @@ If you would like to contribute code to Alligator-Cross Telegram Notifier, pleas
 If you have any questions or concerns about contributing to Alligator-Cross Telegram Notifier, please feel free to contact me at Aliigheshlaghi97@gmail.com.
 
 
-
-
-
-
-
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+Alligator-Cross Telegram Notifier is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for the full text.
 
 
 
