@@ -23,10 +23,29 @@ You have to make a telegram bot from @BotFather. Then make a channel and make th
 ## Telegram Channel
 Messages and images are sent to a Telegram channel "@alligator_signal". Please feel free to join the channel to stay updated on the signals.
 
-## Credits
-This program was created by Ali Gheshlaghi.
+## Contributing
+Thank you for your interest in contributing to Alligator-Cross Telegram Notifier! There are several ways you can help:
 
-The Alligator indicator was created by Bill Williams.
+### Bug Reports
+If you encounter a bug while using Alligator-Cross Telegram Notifier, please open a new issue on the project's GitHub page. When submitting a bug report, please include:
+
+* A detailed description of the issue
+* Steps to reproduce the issue, if possible
+* Any error messages or other relevant information
+* Feature Requests
+/n 
+If you have an idea for a new feature or improvement to Alligator-Cross Telegram Notifier, please open a new issue on the project's GitHub page. When submitting a feature request, please include:
+
+* A detailed description of the feature or improvement
+* Any relevant use cases or scenarios
+* Any potential drawbacks or concerns
+* Pull Requests
+/n 
+If you would like to contribute code to Alligator-Cross Telegram Notifier, please submit a pull request on the project's GitHub page. When submitting a pull request, please:
+
+* Create a new branch for
+
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
