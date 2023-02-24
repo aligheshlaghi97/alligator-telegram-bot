@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import numpy as np
 import datetime as dt
@@ -17,8 +11,12 @@ import plotly
 import schedule
 import time
 from datetime import datetime
+import sys
+import logging
 
-def task(reading_data):  
+sys.stdout.write('AlligBot started!\n')
+logging.info('This is a log message')
+def task(reading_data):
     reading_data.get_data()
     reading_data.data_cleaning()
     df = reading_data.data
@@ -27,7 +25,7 @@ def task(reading_data):
     df = ind_add.df
     df = df.iloc[50:]
     df = df.reset_index(drop=True)
-   
+
     strategy = SmaCrossStrategy()
     status = strategy.strategy_confirm(df)
     if status[0]:
@@ -55,4 +53,3 @@ schedule.every(1).minutes.at(':00').do(job)
 while True:
     schedule.run_pending()
     time.sleep(0.1)
-
