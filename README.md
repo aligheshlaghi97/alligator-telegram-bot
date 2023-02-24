@@ -1,5 +1,5 @@
 # Alligator-Cross Telegram Notifier
-This program uses Docker to send a Telegram notification (text and image) to a specified channel whenever there is an Alligator-Cross setup occurring in "EURUSD" data on 5m timeframe. The cross here means a shadow of a candle that intersects with alligator lips (GreenLine).
+Alligator-Cross Telegram Notifier is a Docker-based program that sends notifications to a designated Telegram channel when an Alligator-Cross setup is detected in "EURUSD" data on a 5-minute timeframe. An Alligator-Cross setup is defined as a shadow of a candle that intersects with the GreenLine of the Alligator indicator, according to the Bill Williams trading strategy. This program can be extended to detect other trading signals based on various technical indicators such as MACD, Moving Average, RSI, or specific candlestick patterns. With Alligator-Cross Telegram Notifier, traders can receive timely alerts and stay informed of market movements and opportunities.
 
 ## Prerequisites
 * Docker
