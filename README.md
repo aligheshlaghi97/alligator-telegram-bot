@@ -32,14 +32,14 @@ If you encounter a bug while using Alligator-Cross Telegram Notifier, please ope
 * A detailed description of the issue
 * Steps to reproduce the issue, if possible
 * Any error messages or other relevant information
-* Feature Requests *
+### Feature Requests 
 If you have an idea for a new feature or improvement to Alligator-Cross Telegram Notifier, please open a new issue on the project's GitHub page. When submitting a feature request, please include:
 
 * A detailed description of the feature or improvement
 * Any relevant use cases or scenarios
 * Any potential drawbacks or concerns
-* Pull Requests
-/n 
+### Pull Requests
+
 If you would like to contribute code to Alligator-Cross Telegram Notifier, please submit a pull request on the project's GitHub page. When submitting a pull request, please:
 
 * Create a new branch for
