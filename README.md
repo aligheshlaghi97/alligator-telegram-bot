@@ -15,13 +15,13 @@ This program uses Docker to send a Telegram notification (text and image) to a s
 * The program will automatically check for Alligator-Cross setups (Shadow of candle crosses Alligator Lips (GreenLine)) every 5 minutes (on 5m candles) and send a notification to the specified Telegram channel if one is detected.
 
 ## Configuration
-You have to make a telegram bot from @BotFather. Then make a channel and make that bot, an admin of your channel (with message sending permissions). The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory (app/.env) with the following values:
+You have to make a telegram bot from @BotFather. Then make a channel and make that bot, an admin of your channel (with message sending permissions). The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory (app/.env) with the following values (like .envsample):
 
-* BOT_TOKEN: Your Bot Telegram API key 
-* CHANNEL_ID: The name of the Telegram channel to send notifications to
+* `BOT_TOKEN`: Your Bot Telegram API key 
+* `CHANNEL_ID`: The name of the Telegram channel to send notifications to
 
 ## Telegram Channel
-Messages and images are sent to a Telegram channel "@alligator_signal". Please feel free to join the channel to stay updated on the signals.
+Messages and images are sent to a Telegram channel https://t.me/alligator_signal. Please feel free to join the channel to stay updated on the signals.
 
 ## Contributing
 Thank you for your interest in contributing to Alligator-Cross Telegram Notifier! There are several ways you can help:
