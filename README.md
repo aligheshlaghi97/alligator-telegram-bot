@@ -3,12 +3,12 @@ This program uses Docker to send a Telegram notification (text and image) to a s
 
 # Prerequisites
 * Docker
-Telegram API key and channel name
-Installation
-Clone the repository: git clone https://github.com/your-username/alligator-cross-telegram-notifier.git
-Navigate to the project directory: cd alligator-cross-telegram-notifier
-Build the Docker image: docker build -t alligator-cross-notifier .
-Usage
+* Telegram API key and channel name
+# Installation
+* Clone the repository: git clone https://github.com/your-username/alligator-cross-telegram-notifier.git
+* Navigate to the project directory: cd alligator-cross-telegram-notifier
+* Build the Docker image: docker build -t alligator-cross-notifier .
+## Usage
 Start the Docker container: docker run -d --name alligator-cross-notifier alligator-cross-notifier
 To stop the container: docker stop alligator-cross-notifier
 To remove the container: docker rm alligator-cross-notifier
