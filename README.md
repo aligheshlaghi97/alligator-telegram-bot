@@ -1,5 +1,5 @@
 # Alligator-Cross Telegram Notifier
-This program uses Docker to send a Telegram notification (text and image) to a specified channel whenever there is an Alligator-Cross setup occurring in "EURUSD" data on 5m timeframe.
+This program uses Docker to send a Telegram notification (text and image) to a specified channel whenever there is an Alligator-Cross setup occurring in "EURUSD" data on 5m timeframe. The cross here means a shadow of a candle that intersects with alligator lips (GreenLine).
 
 ## Prerequisites
 * Docker
