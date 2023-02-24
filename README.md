@@ -6,13 +6,13 @@ This program uses Docker to send a Telegram notification (text and image) to a s
 * Telegram Bot and Channel
 ## Installation
 * Clone the repository: `git clone https://github.com/aligheshlaghi97/alligator-telegram-bot.git`
-* Navigate to the project directory: cd alligator-cross-telegram-notifier
-* Build the Docker image: docker build -t alligator-cross-notifier .
+* Navigate to the project directory: `cd alligator-telegram-bot`
+* Build the Docker image: `docker build -t alligator-telegram-bot` .
 ## Usage
-* Start the Docker container: docker run -d --name alligator-cross-notifier alligator-cross-notifier
-* To stop the container: docker stop alligator-cross-notifier
-* To remove the container: docker rm alligator-cross-notifier
-* The program will automatically check for Alligator-Cross setups every minute and send a notification to the specified Telegram channel if one is detected.
+* Start the Docker container: `docker run -d --name alligator-telegram-bot alligator-cross-notifier`
+* To stop the container: `docker stop alligator-cross-notifier`
+* To remove the container: `docker rm alligator-cross-notifier`
+* The program will automatically check for Alligator-Cross setups (Shadow of candle crosses Alligator Lips (GreenLine)) every 5 minutes (on 5m candles) and send a notification to the specified Telegram channel if one is detected.
 
 ## Configuration
 You have to make a telegram bot from @BotFather. Then make a channel and make that bot, an admin of your channel (with message sending permissions). The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory (app/.env) with the following values:
