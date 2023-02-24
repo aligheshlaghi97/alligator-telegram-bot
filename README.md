@@ -15,10 +15,14 @@ This program uses Docker to send a Telegram notification (text and image) to a s
 * The program will automatically check for Alligator-Cross setups every minute and send a notification to the specified Telegram channel if one is detected.
 
 ## Configuration
-The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory with the following values:
+You have to make a telegram bot from @BotFather. Then make a channel and make that bot, an admin of your channel (with message sending permissions). The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory (app/.env) with the following values:
 
-* API_KEY: Your Bot Telegram API key
-* CHANNEL_NAME: The name of the Telegram channel to send notifications to
+* BOT_TOKEN: Your Bot Telegram API key 
+* CHANNEL_ID: The name of the Telegram channel to send notifications to
+
+## Telegram Channel
+Messages and images are sent to a Telegram channel "@alligator_signal". Please feel free to join the channel to stay updated on the signals.
+
 ## Credits
 This program was created by Ali Gheshlaghi.
 
