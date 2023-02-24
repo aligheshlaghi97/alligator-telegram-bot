@@ -12,7 +12,7 @@ This program uses Docker to send a Telegram notification (text and image) to a s
 * Start the Docker container: docker run -d --name alligator-cross-notifier alligator-cross-notifier
 * To stop the container: docker stop alligator-cross-notifier
 * To remove the container: docker rm alligator-cross-notifier
-The program will automatically check for Alligator-Cross setups every minute and send a notification to the specified Telegram channel if one is detected.
+- The program will automatically check for Alligator-Cross setups every minute and send a notification to the specified Telegram channel if one is detected.
 
 ## Configuration
 The program uses environment variables for configuration. You can set these variables by creating a .env file in the project directory with the following values:
