@@ -25,12 +25,13 @@ def task(reading_data):
     df = ind_add.df
     df = df.iloc[50:]
     df = df.reset_index(drop=True)
-
     strategy = SmaCrossStrategy()
     status = strategy.strategy_confirm(df)
+    print('status: ', status)
+
     if status[0]:
         message_text = status[1]
-        vis = visualization(df)
+        vis = visualization(df, 5)
         vis.save_fig('test')
         telegram_bot = TelegramBot(message_text + f' in 5m TimeFrame', 'test')
         telegram_bot.send_message()
